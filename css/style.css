@@ -31,7 +31,7 @@ header{
 
 h1{
     color: #1E1928;
-    font-family: Roboto,serif;
+    font-family: 'Roboto Serif', serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
@@ -43,15 +43,15 @@ h1{
 #navigation
 {
     display: flex;
-    list-style: none
+    list-style: none;
+
 
 }
 
 .header nav ul li a{
-    text-decoration: none;
     color: #1E1928;
-    font-family: Inter;
-    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    font-size: 4px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
@@ -61,4 +61,3 @@ header nav ul li:hover{
     transform: rotate(360deg);
     transition: 0.3s;
 }
-
