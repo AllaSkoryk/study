@@ -349,14 +349,28 @@ header {
     border: orange solid 1px;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+}
 
+.block_1:after{
+    width: 276px;
+    height: 574px;
+    position: absolute;
+    right: 161px;
+    top: 7.5px;
+    background-image: url("../images/Vector.png");
+    background-size: cover;
+    background-position: center;
+    content: "";
+    z-index: 1;
+}
+
+.block_1 img{
+    z-index: 2;
 }
 
 .block_1 article h2{
     color: #1E1928;
-    /*background-image: url("../images/Vector.svg");*/
-    /*background-position: 100%;*/
-    /*text-align: right;*/
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
     font-style: normal;
@@ -365,11 +379,7 @@ header {
     /*text-align: center;*/
 }
 
-.block_1 img{
-    width: 303px;
-    height: 393px;
 
-}
 
 
 .block_2{
