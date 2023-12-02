@@ -330,3 +330,13 @@ header {
     padding: 10px 33px;
     margin-top: 20px;
 }
+
+
+/*HUGE BLOCK*/
+
+.huge_block{
+    height: 3480px;
+    background: #F4EFE9;
+    min-width: 1200px;
+
+}
