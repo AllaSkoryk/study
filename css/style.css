@@ -11,16 +11,17 @@ body{
 /*HEADER*/
 
 header {
-    min-width: 1440px;
+    max-width: 1440px;
     height: 112px;
     padding: 40px 0;
 }
 
 .container{
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+
 }
 
 
@@ -32,26 +33,28 @@ header {
 
 .container nav ul li {
     margin-left: 40px;
-
 }
 
 .container nav ul li a {
     color: #1E1928;
     font-family: 'Inter', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
     text-decoration: none;
 }
 
+
+
 /*MAIN*/
 
 .family_box{
-    padding-bottom: 196px;
-    max-width: 1280px;
+    max-width: 1200px;
     min-height: 738px;
-    /*position: relative;*/
+    padding-bottom: 196px;
+    position: relative;
+    justify-content: space-between;
 }
 
 .text_part{
@@ -69,27 +72,22 @@ header {
     font-weight: 400;
     line-height: 58px;
     margin: 80px 120px 0 120px;
-    /*width: 512px;*/
-    /*height: 116px;*/
 }
 
-.paragraph{
-    /*padding-top: 24px;*/
-}
+
 .article h3{
     color: rgba(30, 25, 40, 0.80);
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
     letter-spacing: 0.252px;
-    width: 494px;
     margin: 24px 120px 0 120px;
 }
 
 .article p{
-    width: 549px;
+    max-width: 549px;
     color: rgba(30, 25, 40, 0.80);
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -155,10 +153,10 @@ header {
 
 }
 
+
 /*Orange box*/
 
 .orange{
-    /*height: 700px;*/
     padding-top: 270px;
     padding-bottom: 78px;
     background-color: #FFD394;
@@ -168,6 +166,14 @@ header {
     position: relative;
 }
 
+.orange div{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .orange div h2{
     color: #1E1928;
     font-family: 'Roboto', sans-serif;
@@ -175,18 +181,8 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: 58px;
-    /*padding: 80px 306px 372px 120px;*/
 }
 
-.orange div{
-    /*margin: 80px 120px 80px 24px;*/
-    max-width: 1200px;
-    /*width: 100%;*/
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-
-}
 
 .orange ul{
     list-style: none;
@@ -255,7 +251,7 @@ header {
     font-weight: 700;
     line-height: 58px;
     letter-spacing: 0.252px;
-    /*margin-bottom: 10px;*/
+
 }
 
 .orange div ul li p{
@@ -267,7 +263,7 @@ header {
     line-height: 24px; /* 150% */
     letter-spacing: 0.176px;
     margin-top: 4px;
-    /*margin-left: 64px;*/
+
 }
 
 
@@ -315,9 +311,8 @@ header {
 .free_block article a{
     border-radius: 9999px;
     border: 1px solid #1E1928;
-    width: 142px;
+    max-width: 142px;
     height: 40px;
-    flex-shrink: 0;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
@@ -337,7 +332,7 @@ header {
 .huge_block{
     min-height: 3480px;
     background: #F4EFE9;
-    min-width: 1200px;
+    width: 100%;
     padding-top: 80px;
 }
 
@@ -543,10 +538,9 @@ header {
 
 .windows_block{
     min-height: 832px;
-    min-width: 1440px;
+    width: 100%;
 
 }
-
 .windows_block div{
     display: flex;
     /*margin: auto;*/
@@ -590,12 +584,13 @@ header {
 
 
 .bordo{
-    min-width: 1440px;
+    width: 100%;
     height: 852px;
     background: #592141;
     padding-top: 288px;
     position: relative;
 }
+
 
 .bordo h4{
     color: #F4EFE9;
@@ -656,6 +651,9 @@ header {
     text-align: center;
     max-width: 1200px;
     width: 100%;
+    /*display: flex;*/
+    justify-content:center;
+    align-items: center;
     margin: auto;
     padding: 80px 0;
     top: -190px;
@@ -670,6 +668,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 42px;
+    padding-bottom: 28px;
 }
 
 .free_block_second p{

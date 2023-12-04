@@ -1,0 +1,186 @@
+@media (max-width: 767px){
+
+    .container{
+        max-width: 100%;
+    }
+
+    .container nav ul{
+        list-style-type: none;
+        display: block;
+        padding: 0 15px;
+    }
+
+    .container img{
+        padding: 0 15px;
+    }
+
+    .family_box{
+        position: static;
+        padding: 0 15px;
+    }
+
+    .article h1{
+        font-size: 26px;
+        line-height: 32px;
+        margin: 40px;
+        text-align: center;
+
+    }
+
+    .article h3{
+        font-size: 15px;
+        line-height: 20px;
+        margin: 40px;
+        text-align: center;
+
+    }
+
+    .article p{
+        max-width: 100%;
+        margin: 40px;
+        text-align: center;
+    }
+
+   .text_part{
+       display: block;
+   }
+
+   .family{
+       max-width: 100%;
+       position: static;
+       display: block;
+       padding: 30px;
+       align-items: center;
+   }
+
+   .family_photo{
+       width: 100%;
+       padding-top: 30px;
+   }
+
+   .form{
+       flex-direction: column;
+       align-items: center;
+       margin-left: 0;
+   }
+
+   .placeholder{
+       margin-bottom: 20px;
+   }
+
+   .button{
+       /*margin: auto;*/
+       width: 120px;
+       /*height: 80px;*/
+       font-size: 10px;
+       padding: 10px 20px;
+   }
+
+   .free_block{
+       position: static;
+       text-align: center;
+       display: block;
+       align-items: center;
+       /*flex-direction: column;*/
+   }
+
+   .free_block article h2{
+       font-size: 32px;
+       line-height: 32px;
+       margin-bottom: 20px;
+
+   }
+
+   .free_block article p{
+       margin: auto;
+       line-height: 22px;
+       display: block;
+       text-align: center;
+       padding: 0 15px 30px 15px;
+   }
+
+   .free_block article a{
+       padding: 8px 20px;
+       font-size: 14px;
+
+   }
+
+   .orange{
+       padding-top: 0;
+       position: static;
+
+   }
+
+   .orange div{
+       width: 100%;
+       display: block;
+       flex-direction: column;
+       margin:auto;
+   }
+
+   .orange div h2{
+       text-align: center;
+       font-size: 32px;
+   }
+
+    .orange div ul li {
+        position: static;
+    }
+
+    .orange div ul li h4{
+        padding: 0 15px;
+        text-align: center;
+        line-height: 24px;
+    }
+
+
+    .orange div ul li p{
+        padding: 0 15px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .orange div ul li:before{
+        position: static;
+        margin: 50px;
+    }
+
+    .orange div ul li:nth-child(1):before{
+        font-size: 12px;
+        line-height: 20px;
+        width: 40px;
+        height: 40px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
