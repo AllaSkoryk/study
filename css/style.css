@@ -191,6 +191,7 @@ header {
 
 .orange div ul li {
      position: relative;
+
  }
 
 
@@ -642,8 +643,6 @@ header {
 }
 
 
-
-
 .free_block_second{
     border-radius: 8px;
     background: #FFF;
@@ -660,7 +659,7 @@ header {
     left: calc(50% - 600px);
 }
 
-.free_block_second h3{
+.free_block_second article h3{
     color: #1E1928;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -671,7 +670,7 @@ header {
     padding-bottom: 28px;
 }
 
-.free_block_second p{
+.free_block_second article p{
     font-family: 'Inter', sans-serif;
     color: rgba(30, 25, 40, 0.80);
     text-align: center;
