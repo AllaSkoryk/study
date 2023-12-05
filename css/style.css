@@ -538,16 +538,32 @@ header {
 /*<!-- BLOCK WITH PIC WINDOWS-->*/
 
 .windows_block{
-    min-height: 832px;
+    min-height: 734px;
     width: 100%;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
 
 }
-.windows_block div{
+.sad_pictures{
     display: flex;
-    /*margin: auto;*/
     margin-bottom: 80px;
     justify-content: space-between;
     align-items: center;
+}
+
+.sad_pictures a{
+    max-width: 160px;
+    display: inline-block;
+}
+
+.sad_pictures .owl-stage{
+    display: flex;
+    align-items: center;
+}
+
+.sad_pictures.owl-carousel .owl-items{
+    text-align: center;
 }
 
 .windows_block h2{
@@ -563,7 +579,7 @@ header {
     margin-top: 144px;
 }
 
-.windows_block a{
+.library{
     border-radius: 9999px;
     border: 1px solid #1E1928;
     /*width: 168px;*/
@@ -582,6 +598,7 @@ header {
     margin: 0 auto;
     width: fit-content;
 }
+
 
 
 .bordo{
