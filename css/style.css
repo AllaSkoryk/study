@@ -703,8 +703,76 @@ header {
 
 
 
+/*AKK*/
+
+.faq{
+    padding: 100px;
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.container_faq{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.faq h2{
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+.faq h3{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+}
+
+.faq p{
+    display: block;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+}
 
 
+.faq .ui-accordion .ui-accordion-header {
+    /*background-color: #FFFFFF;*/
+    border-top: solid black 1px;
+    border-right: solid black 1px;
+    border-left: solid black 1px;
+    padding: 15px;
+    border-radius: 20px 20px 0 0;
+    background-color: antiquewhite;
+
+}
+
+.container_faq .ui-accordion .ui-accordion-content {
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+    border-radius: 0 0  20px 20px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.container_faq #accordion > div {
+    margin-bottom: 40px;
+}
+
+
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border:  white;
+    /*background: #007fff;*/
+    font-weight: normal;
+    color: black;
+}
 
 
 
