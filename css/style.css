@@ -751,15 +751,9 @@ header {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    background-image: none;
 }
 
-.faq .ui-icon-triangle-1-e {
-    background-position: -32px -16px;
-}
-
-.faq {
-    background-image: ;
-}
 
 .faq .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover  {
     /*border: 1px solid black;*/
@@ -771,9 +765,7 @@ header {
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-radius: 10px 10px 0 0;
-
 }
-
 
 .faq .ui-accordion-content {
     border: 1px solid black;
@@ -781,8 +773,6 @@ header {
     border-radius: 0 0 10px 10px;
     background: darkseagreen;
     border-top: none;
-
-
 }
 
 #accordion div ul li{
@@ -791,6 +781,20 @@ header {
 #accordion div ul{
     padding: 5px 45px;
 }
+
+.faq .ui-accordion-header-icon{
+    background-image: none;
+    position: relative;
+}
+
+.faq .ui-accordion-header.ui-state-active::after {
+    content: '▲'; /* Open state indicator */
+}
+
+.faq .ui-accordion-header::after {
+    content: '▼'; /* Default closed state indicator */
+}
+
 
 
 
