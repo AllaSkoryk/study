@@ -19,10 +19,10 @@ header {
 
 .container{
     max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 240px;
+    margin: auto;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*padding-left: 240px;*/
 
 }
 
@@ -725,12 +725,6 @@ header {
     margin-bottom: 40px;
 }
 
-.faq h3{
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 45px;
-    font-style: normal;
-}
 
 .faq p{
     display: block;
@@ -738,43 +732,65 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
+    padding: 5px;
 }
 
-
-.faq .ui-accordion .ui-accordion-header {
-    /*background-color: #FFFFFF;*/
-    border-top: solid black 1px;
-    border-right: solid black 1px;
-    border-left: solid black 1px;
-    padding: 15px;
-    border-radius: 20px 20px 0 0;
-    background-color: antiquewhite;
-
-}
-
-.container_faq .ui-accordion .ui-accordion-content {
-    border-left: solid black 1px;
-    border-right: solid black 1px;
-    border-bottom: solid black 1px;
-    border-radius: 0 0  20px 20px;
-    background-color: antiquewhite;
-    text-align: center;
-}
-
-.container_faq #accordion > div {
-    margin-bottom: 40px;
-}
-
-
-
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
-    border:  white;
-    /*background: #007fff;*/
+.faq .ui-accordion-header{
+    line-height: 1.3;
+    list-style: none;
+    box-sizing: border-box;
     font-weight: normal;
     color: black;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 2px 0 0 0;
+    padding: 0.5em 0.5em 0.5em 0.7em;
+    border: 1px solid black;;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.faq .ui-icon-triangle-1-e {
+    background-position: -32px -16px;
+}
+
+.faq {
+    background-image: ;
+}
+
+.faq .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover  {
+    /*border: 1px solid black;*/
+    background: darkseagreen;
+    font-weight: normal;
+    color: black;
+    border-bottom: none;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 10px 10px 0 0;
+
 }
 
 
+.faq .ui-accordion-content {
+    border: 1px solid black;
+    color: #333333;
+    border-radius: 0 0 10px 10px;
+    background: darkseagreen;
+    border-top: none;
+
+
+}
+
+#accordion div ul li{
+    list-style: square;
+}
+#accordion div ul{
+    padding: 5px 45px;
+}
 
 
 
