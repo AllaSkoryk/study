@@ -12,9 +12,10 @@ body{
 /*HEADER*/
 
 header {
-    /*max-width: 1440px;*/
-    /*height: 112px;*/
+    max-width: 1440px;
+    height: 112px;
     padding: 40px 0;
+
 }
 
 .container{
