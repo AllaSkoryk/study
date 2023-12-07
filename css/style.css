@@ -1520,21 +1520,39 @@ header {
 .faq .ui-accordion .ui-accordion-header .ui-icon{
         background-image: none;
         position: absolute;
-        right: 30px;
+        right: 20px;
+        width: 50px;
+        top: 50%;
     }
 
 .faq .ui-accordion .ui-accordion-header .ui-icon:after {
     content: "";
     display: block;
-    width: 10px;
-    height: 10px;
-    background-image: url('../images/arrow.png'); /* замените на путь к вашему изображению */
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/direction_icon.png');
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
     right: 5px;
     top: 50%;
-    transform: translateY(-50%);}
+    transform: translateY(-50%);
+    transition: transform 0.5s ease;
+}
+
+.faq .ui-accordion .ui-accordion-header.ui-state-active .ui-icon:after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    background-image: url('../images/direction_icon_copy.png');
+    /*transform: translate(-50%, -50%) rotate(360deg);*/
+}
 
 
 
