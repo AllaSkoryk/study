@@ -44,34 +44,30 @@
 
 <header>
     <div class="container">
-
         <a href="#">
             <img src="images/Logo.svg" alt="logo">
         </a>
-
-        <div class="nav-but-wrap">
-            <div class="menu-icon hover-target">
-                <span class="menu-icon__line menu-icon__line-left"></span>
-                <span class="menu-icon__line"></span>
-                <span class="menu-icon__line menu-icon__line-right"></span>
-            </div>
+        <div class="open-overlay">
+            <span class="bar-top"></span>
+            <span class="bar-middle"></span>
+            <span class="bar-bottom"></span>
+        </div>
+        <div class="overlay-navigation">
+            <nav role="navigation">
+                <ul>
+                    <li><a href="#" data-content="The beginning">About</a></li>
+                    <li><a href="#" data-content="Curious?">Learn</a></li>
+                    <li><a href="#" data-content="I got game">Partner</a></li>
+                    <li><a href="#" data-content="Only the finest">COVID-19</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </header>
 
-<div class="nav">
-    <div class="nav__content">
-        <ul class="nav__list">
-            <li class="nav__list-item active-nav"><a href="#" class="hover-target">home</a></li>
-            <li class="nav__list-item"><a href="#" class="hover-target">studio</a></li>
-            <li class="nav__list-item"><a href="#" class="hover-target">news</a></li>
-            <li class="nav__list-item"><a href="#" class="hover-target">contact</a></li>
-        </ul>
-    </div>
-</div>
 
 
-    <main>
+<main>
         <section>
             <div class="text_part">
                 <article class="article_text">
@@ -269,20 +265,8 @@
                     </p>
                 </div>
             </div>
-
         </div>
-
     </section>
-
-
-
-
-
-
-</main>
-
-
-
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="JS/owl.carousel.js"></script>
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
