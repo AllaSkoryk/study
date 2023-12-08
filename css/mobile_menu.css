@@ -1,4 +1,10 @@
 
+.menu-nav{
+    max-width: 1200px;
+    margin: auto;
+
+}
+
 
 .overlay-navigation {
     position: absolute;
@@ -48,8 +54,8 @@ nav ul li {
 
 nav li a {
     position: relative;
-    top: 50%;
-    color: #93216E;
+    top: 70%;
+    color: white;
     text-transform: uppercase;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
@@ -158,8 +164,8 @@ Burger king
 
 .open-overlay {
     position: absolute;
-    right: 5rem;
-    top: 3rem;
+    right: 12rem;
+    top: 2.3rem;
     z-index: 100;
     width: 50px;
     display: block;
@@ -168,8 +174,8 @@ Burger king
 
 .open-overlay span {
     display: block;
-    height: 1px;
-    background-color: #fff;
+    height: 2px;
+    background-color: whitesmoke;
     cursor: pointer;
     margin-top: 10px;
 }
@@ -230,7 +236,7 @@ Animation keyframes
 
 @keyframes animate-top-bar {
     0% {
-        background-color: #fff;
+        background-color: darkred;
     }
     50% {
         -webkit-transform: translateY(9px);
@@ -250,7 +256,7 @@ Animation keyframes
 
 @keyframes animate-bottom-bar {
     0% {
-        background-color: #fff;
+        background-color: darkred;
     }
     50% {
         -webkit-transform: translateY(-9px);
@@ -270,7 +276,7 @@ Animation keyframes
 
 @keyframes animate-middle-bar {
     0% {
-        background-color: #fff;
+        background-color: darkred;
     }
     80% {
         background-color: #fff;
@@ -282,7 +288,7 @@ Animation keyframes
 
 @keyframes animate-out-top-bar {
     0% {
-        background-color: #29363B
+        background-color: darkred
     }
     50% {
         -webkit-transform: translateY(9px);
@@ -291,7 +297,7 @@ Animation keyframes
     80% {
         -webkit-transform: translateY(5px);
         transform: translateY(5px);
-        background-color: #29363B
+        background-color: #7259be
     }
     100% {
         -webkit-transform: translateY(0);
@@ -302,7 +308,7 @@ Animation keyframes
 
 @keyframes animate-out-bottom-bar {
     0% {
-        background-color: #29363B
+        background-color: #592141;
     }
     50% {
         -webkit-transform: translateY(-9px);
@@ -311,7 +317,7 @@ Animation keyframes
     80% {
         -webkit-transform: translateY(-5px);
         transform: translateY(-5px);
-        background-color: #29363B;
+        background-color: #7259be;
     }
     100% {
         -webkit-transform: translateY(0);
@@ -322,13 +328,13 @@ Animation keyframes
 
 @keyframes animate-out-middle-bar {
     0% {
-        background-color: #29363B
+        background-color: darkred;
     }
     80% {
-        background-color: #29363B;
+        background-color: darkred;
     }
     100% {
-        background-color: #fff;
+        background-color: darkred;
     }
 }
 

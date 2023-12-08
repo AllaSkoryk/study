@@ -15,12 +15,13 @@ header {
     max-width: 1440px;
     height: 112px;
     padding: 40px 10px;
+    margin:  auto;
 
 }
 
 .container{
     max-width: 1200px;
-    margin:  auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 
