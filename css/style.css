@@ -16,6 +16,7 @@ header {
     height: 112px;
     padding: 40px 10px;
     margin:  auto;
+    position: relative;
 
 }
 
@@ -37,13 +38,19 @@ header {
 }
 
 .container nav ul li a {
-    color: #1E1928;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    color: #592141;
+    font-family: 'Kalnia', serif;
+    font-size: 0.9rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 20px;
     text-decoration: none;
+    position: relative;
+    top: 70%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
 }
 
 /*MAIN*/
