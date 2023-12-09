@@ -31,6 +31,7 @@ header {
 .container nav ul {
     display: flex;
     list-style: none;
+
 }
 
 .container nav ul li {
