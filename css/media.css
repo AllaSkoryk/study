@@ -1,31 +1,22 @@
 @media (max-width: 767px){
 
-    /*.nav ul li{*/
-    /*    height: 20px;*/
-    /*    width: 50px;*/
-    /*}*/
+    .nav ul li{
+        height: 20px;
+        width: 50px;
+    }
 
-    /*nav ul li a {*/
-    /*    font-size: 11px;*/
-    /*}*/
+    nav ul li a {
+        font-size: 11px;
+    }
 
-    /*nav li a:after {*/
-    /*    font-size: 0.6rem;*/
-    /*}*/
+    nav li a:after {
+        font-size: 0.6rem;
+    }
 
-    /*.open-overlay {*/
-    /*    right: 1rem;*/
-    /*}*/
-    /*nav li a:before {*/
-    /*    width: 40px;*/
-    /*}*/
+
 
     .container{
         max-width: 100%;
-    }
-
-    .overlay-navigation{
-        display: inline-block;
     }
 
     .container nav ul{
