@@ -9,8 +9,6 @@ body{
 
 }
 
-
-
 /*HEADER*/
 
 header {
@@ -30,26 +28,27 @@ header {
 
 }
 
+.logo_main{
+    position: relative;
+    z-index: 100;
+}
+
 .container nav ul {
     display: flex;
     list-style: none;
-
 }
 
-.container nav ul li {
-    margin-left: 40px;
-}
+
 
 .container nav ul li a {
-    color: #592141;
-    font-family: 'Kalnia', serif;
-    font-size: 0.9rem;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: 20px;
     text-decoration: none;
     position: relative;
-    top: 70%;
     text-transform: uppercase;
     letter-spacing: 1px;
     display: block;
