@@ -1,0 +1,133 @@
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "mobile_menu.css";
+@import "style.css";
+@import "media.css";
+header {
+  max-width: 1440px;
+  height: 112px;
+  padding: 40px 10px;
+  margin: auto;
+  position: relative;
+}
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .logo_main {
+  position: relative;
+  z-index: 100;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li a {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+  text-align: center;
+}
+
+.text_part {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 190px;
+}
+.text_part .article_text {
+  max-width: 549px;
+}
+
+.article_text h1 {
+  color: #1E1928;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58px;
+}
+
+.article_text h2 {
+  color: rgba(30, 25, 40, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.252px;
+  margin-bottom: 4px;
+}
+
+.article_text p {
+  color: rgba(30, 25, 40, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.252px;
+  margin-bottom: 28px;
+}
+
+.article_text h3 {
+  color: rgba(30, 25, 40, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.252px;
+}
+
+.form {
+  border-radius: 9999px;
+  background: white;
+  padding: 8px 12px;
+  display: flex;
+  max-width: 448px;
+  justify-content: space-between;
+}
+
+.placeholder {
+  width: 180px;
+  border: none;
+  background-color: transparent;
+  padding: 10px 19px;
+  color: rgba(30, 25, 40, 0.23);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.button {
+  width: 179px;
+  height: 40px;
+  border-radius: 9999px;
+  border: none;
+  background: #1E1928;
+  color: white;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 10px 32px;
+}
+
+/*# sourceMappingURL=style_preproc.css.map */

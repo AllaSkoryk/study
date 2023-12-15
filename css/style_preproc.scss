@@ -1,0 +1,115 @@
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "mobile_menu.css";
+@import "style.css";
+@import "media.css";
+@import "header";
+
+
+$main_color: black;
+$main_font: 'Inter', sans-serif;
+$white_color: white;
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+
+.text_part {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 190px;
+  .article_text {
+    max-width: 549px;
+  }
+}
+
+
+
+.article_text h1 {
+  color: #1E1928;
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58px;
+}
+
+.article_text h2 {
+  color: rgba(30, 25, 40, 0.80);
+  font-family: $main_font;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.252px;
+  margin-bottom: 4px;
+}
+
+.article_text p {
+  color: rgba(30, 25, 40, 0.80);
+  font-family: $main_font;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.252px;
+  margin-bottom: 28px;
+}
+
+.article_text h3 {
+  color: rgba(30, 25, 40, 0.80);
+  font-family: $main_font;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.252px;
+
+
+}
+
+.form {
+  border-radius: 9999px;
+  background: $white_color;
+  padding: 8px 12px;
+  display: flex;
+  max-width: 448px;
+  justify-content: space-between;
+}
+
+.placeholder {
+  width: 180px;
+  border: none;
+  background-color: transparent;
+  padding: 10px 19px;
+  color: rgba(30, 25, 40, 0.23);
+  text-align: center;
+  font-family: $main_font;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+
+}
+
+.button {
+  width: 179px;
+  height: 40px;
+  border-radius: 9999px;
+  border: none;
+  background: #1E1928;
+  color: $white_color;
+  text-align: center;
+  font-family: $main_font;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 10px 32px;
+}
+
