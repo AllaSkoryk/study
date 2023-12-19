@@ -16,6 +16,11 @@ $white_color: white;
   transform: $property;
 }
 
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
 
 .text_part {
   max-width: 1200px;
@@ -48,6 +53,8 @@ $white_color: white;
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.252px;
   margin-bottom: 4px;
+
+
 }
 
 .article_text p {
